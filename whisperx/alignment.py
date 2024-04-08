@@ -8,7 +8,6 @@ from typing import Iterable, Union, List
 import numpy as np
 import pandas as pd
 import torch
-import torchaudio
 from transformers import Wav2Vec2ForCTC, Wav2Vec2Processor
 
 from .audio import SAMPLE_RATE, load_audio
